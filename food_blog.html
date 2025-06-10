@@ -53,11 +53,56 @@
         .foot-img{
             width:60px;
         }
-        .footer2{
-            display: flex;
-            align-items: center;
-            margin: 10px;
+        .footer{
+            display:flex;
+            justify-content:center;
         }
+        .foot-img{
+            width:60px;
+        }
+        .pop{
+            padding-left:20px;
+        }
+        .travel{
+            background-color: black;
+            color:white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            margin-right: 5px;
+        }
+        .tour{
+            background-color: #f0f0f0;
+            color: black;
+            padding: 5px;
+            border-radius: 5px;
+            margin:10px;
+        }
+        .links{
+            text-align:center;
+            
+        }
+        .links a{
+            margin:  5px;
+            text-decoration: none;
+            color: black;
+            font-size:20px;
+            padding:20px;
+            
+        }
+        .links a:hover{
+            text-decoration: underline;
+            background-color:black;
+            color:white;
+        }
+        .large{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        
+        
+        
         
     </style>
 </head>
@@ -145,6 +190,15 @@
             <p>Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
         </div>
     </div>
+
+    <div class="links">
+        <a href="#"><<</a>
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">>></a>
+    </div>
     <hr>
     
     <h3 class="about-me">About Me, The Food Man</h3>
@@ -158,7 +212,45 @@
     </div>
     <br>
     <hr>
-    
+
+    <div class="footer">
+        <div class="footer1">
+            <h3>Footer</h3>
+            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo<br> condimentum, porta lectus vitae, ultricies congue<br> gravida diam non fringilla.</p>
+        </div>
+        
+        <div class="footer1">
+            <h3>BLOG POSTS</h3>
+            <img src="https://www.w3schools.com/w3images/workshop.jpg" class="foot-img">
+            <div class="large">
+                <span >Lorem</span>
+                <span>Sed mattis nunc</span>
+            </div>
+        </div>
+
+        
+
+        <div class="footer1">
+            <h3 class="pop">POPULAR TAGS</h3>
+            <p>
+                <span class="travel">Travel</span>
+                <span class="tour">Dinner</span>
+                <span class="tour">New York</span>
+                <span class="tour">Salmon</span>
+                <span class="tour">France</span><br>
+                <span class="tour">Drinks</span>
+                <span class="tour">Ideas</span>
+                <span class="tour">Flavors</span>
+                <span class="tour">Cuisine</span>
+                <span class="tour">Chicken</span><br>
+                <span class="tour">Dressing</span>
+                <span class="tour">Fried</span>
+                <span class="tour">Fish</span>
+                <span class="tour">Duck</span>
+            </p>
+        </div>
+    </div>
+
 </div>
 </body>
 </html>
