@@ -6,6 +6,9 @@
     <title>Architect Template</title>
 
     <style>
+        *{
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
         body{
             margin-top:0px;
             margin-left:3px;
@@ -17,7 +20,6 @@
             position:absolute;
             top:50%;
             left:600px;;
-            
             color:white;
         }
         .title span{
@@ -115,7 +117,7 @@
             overflow:hidden;
         }
         .submit:hover{
-            background-color:blue;
+            background-color:grey;
         }
 
         
@@ -133,13 +135,13 @@
             <a href="#contact" class="nav">Contact</a>
         </div>
         <div class="main-container">
-    <div class="img-div " style="background-color:aqua;width:100%; height:800px;" >
+    <div class="img-div " style="background-color:rgb(26, 22, 22);width:100%; height:800px;" >
         <!-- <img src="https://www.w3schools.com/w3images/architect.jpg" alt="Architect Image" class="frst-img"> -->
-        <h1 class="title"><span>B R</span> Architect</h1>
+        <h1 class="title" ><span>B R</span> Architects</h1>
     </div>
-    <br> <br><br>
+    <br> <br id="projects"><br>
 
-    <h2 id="projects">Projects</h2><br><br>
+    <h2 >Projects</h2><br><br>
     <div class="img-container">
         <div class="frst-row">
             <div class="img">
@@ -185,9 +187,9 @@
             </div>
         </div>
     </div>
-    <br><br>
+    <br id="about"><br>
 
-    <h2 id="about">About</h2>
+    <h2 >About</h2>
     <br>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
     et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -225,12 +227,12 @@
             <h3>Dan Star</h3>
             <h4>Architect</h4>
             <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-            <button>Contact</button>
+            <button id="contact">Contact</button>
         </div>
     </div>
     <br><br>
 
-    <h2 id="contact">Contact</h2>
+    <h2 >Contact</h2>
     <hr>
     <p><b>Lets get in touch and talk about your next project.</b></p>
     <form>
