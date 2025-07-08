@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.top {
+    background-color: rgb(212, 143, 14);
+    width: 100%;
+    height: 80px;
+    padding: 20px;
+}
+
+.top h1 {
+    color: white;
+    padding-left: 90px;
+    float: left;
+}
+
+.top-right {
+    float: right;
+    padding: 10px 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    color: white;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.social i {
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    text-align: center;
+    color: rgb(212, 143, 14);
+    border-radius: 3px;
+}
+
+.navbar {
+    padding: 20px 95px;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
+    margin: 0 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.quote {
+    padding-right: 90px;
+}
+
+.q-btn {
+    height: 40px;
+    background-color: rgb(212, 143, 14);
+    color: white;
+    padding: 0 20px;
+    cursor: pointer;
+    margin-left: 500px;
+}
+
+.img-container {
+    background-size: cover;
+    background-position: center;
+    height: 130vh;
+    position: relative;
+    color: white;
+    animation: bgSlide 15s infinite;
+    animation-delay: 5s;
+}
+
+@keyframes bgSlide {
+    0% {
+        background-image: url("https://themewagon.github.io/Weldork/img/carousel-1.jpg");
+    }
+    33% {
+        background-image: url("https://themewagon.github.io/Weldork/img/carousel-2.jpg");
+    }
+    66% {
+        background-image: url("https://themewagon.github.io/Weldork/img/carousel-3.jpg");
+    }
+    100% {
+        background-image: url("https://themewagon.github.io/Weldork/img/carousel-1.jpg");
+    }
+}
+
+.best {
+    font-size: 120px;
+    padding-left: 140px;
+    padding-top: 280px;
+    z-index: 1;
+    position: relative;
+}
+
+.explore {
+    background-color: rgb(212, 143, 14);
+    color: white;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    margin-left: 220px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.thumbnail-container {
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    z-index: 2;
+    padding-left: 10px;
+}
+
+.thumbnail {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.thumbnail:hover {
+    transform: scale(1.1);
+}
