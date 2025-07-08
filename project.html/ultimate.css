@@ -80,14 +80,31 @@
     /* width:90%; */
     margin-left:90px;
     display:flex;
+    /* gap:5px; */
 }
 .tools-content{
     position:relative;
-    background-color: black;
+    /* background-color: black; */
     padding:20px;
     top:50px;
+    /* border:1px solid black; */
+    box-shadow: 6px 6px 12px rgba(0,0,0,0.1);
 }
 .hammer{
     position:absolute;
     z-index:1;
+}
+.tools-content h2{
+    padding-top:50px;
+}
+.tools-content p{
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 10px;
+}
+.tools-content a{
+    font-size: 1.2rem;
+    color: #747272;
+    text-decoration: none;
+    margin-top: 10px;
 }
