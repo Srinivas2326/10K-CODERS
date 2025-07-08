@@ -63,18 +63,13 @@ body {
     text-decoration: none;
     font-weight: 600;
 }
-
-.quote {
-    padding-right: 90px;
-}
-
-.q-btn {
-    height: 40px;
+.btn{
     background-color: rgb(212, 143, 14);
     color: white;
-    padding: 0 20px;
-    cursor: pointer;
-    margin-left: 500px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
 }
 
 .img-container {
@@ -84,7 +79,7 @@ body {
     position: relative;
     color: white;
     animation: bgSlide 15s infinite;
-    animation-delay: 5s;
+    /* animation-delay: 2s; */
 }
 
 @keyframes bgSlide {
