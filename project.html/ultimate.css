@@ -76,18 +76,14 @@
     padding:20px;
     text-align: center;
 }
-.tools{
-    /* width:90%; */
+/* .tools{
     margin-left:90px;
     display:flex;
-    /* gap:5px; */
 }
 .tools-content{
     position:relative;
-    /* background-color: black; */
     padding:20px;
     top:50px;
-    /* border:1px solid black; */
     box-shadow: 6px 6px 12px rgba(0,0,0,0.1);
 }
 .hammer{
@@ -107,4 +103,4 @@
     color: #747272;
     text-decoration: none;
     margin-top: 10px;
-}
+} */
