@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="ultimate.css">
     <link rel="stylesheet" href="price.css">
     <link rel="stylesheet" href="work.css">
+    <link rel="stylesheet" href="appointment.css">
 </head>
 <body>
     <div class="top">
@@ -102,7 +103,7 @@
     <div class="tools">
         <!-- Tools icons content unchanged -->
     </div>
-    <br><br><br><br><br><br><br><br>
+    <br><br>
 
     <div class="welding-container">
         <div class="price-container">
@@ -127,21 +128,115 @@
     </div>
     <br><br><br><br><br><br><br>
 
-    <!-- ✅ UPDATED WORK CONTAINER BELOW -->
-    <div class="work-container">
-        <h2 style="text-align:center; color: white;">RELIABLE & HIGH-QUALITY<br>WELDING SERVICES</h2>
-        <br>
-        <div class="works-content">
-            <div class="works">
-                <div class="work-img-container">
-                    <img src="https://themewagon.github.io/Weldork/img/service-1.jpg" class="work-img">
-                </div>
-                <h3>METAL WORKS</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus augue.</p>
-                <a href="#" class="read-more">READ MORE <i class="fa-solid fa-arrow-right"></i></a>
-            </div>
+    <!-- WORK CONTAINER -->
+    <div class="work-main-container">
+    <h2>RELIABLE AND HIGH QUALITY<br> WELDING SERVICES</h2>
+    <br><br><br>
+    <div class="frst-row">
+        <div class="works">
+            <img src="https://themewagon.github.io/Weldork/img/service-1.jpg" class="work-img" />
+            <h3>METAL WORKS</h3>
+            <p>Lorem ipsum dolor sit<br> amet, consectetur<br> adipiscing elit. Curabitur<br> tellus augue.</p>
+            <a href="#" class="read-more">READ MORE <span>&#xbb;</span></a>
+        </div>
+
+        <div class="works">
+            <img src="https://themewagon.github.io/Weldork/img/service-2.jpg" class="work-img" />
+            <h3>METAL WORKS</h3>
+            <p>Lorem ipsum dolor sit<br> amet, consectetur<br> adipiscing elit. Curabitur<br> tellus augue.</p>
+            <a href="#" class="read-more">READ MORE <span>&#xbb;</span></a>
+        </div>
+
+        <div class="works">
+            <img src="https://themewagon.github.io/Weldork/img/service-3.jpg" class="work-img" />
+            <h3>METAL WORKS</h3>
+            <p>Lorem ipsum dolor sit<br> amet, consectetur<br> adipiscing elit. Curabitur<br> tellus augue.</p>
+            <a href="#" class="read-more">READ MORE <span>&#xbb;</span></a>
+        </div>
+
+        <div class="works">
+            <img src="https://themewagon.github.io/Weldork/img/service-4.jpg" class="work-img" />
+            <h3>METAL WORKS</h3>
+            <p>Lorem ipsum dolor sit<br> amet, consectetur<br> adipiscing elit. Curabitur<br> tellus augue.</p>
+            <a href="#" class="read-more">READ MORE <span>&#xbb;</span></a>
         </div>
     </div>
+    <br><br><br>
+
+    <div class="scnd-row">
+        <div class="works">
+            <img src="https://themewagon.github.io/Weldork/img/service-5.jpg" class="work-img" />
+            <h3>METAL WORKS</h3>
+            <p>Lorem ipsum dolor sit<br> amet, consectetur<br> adipiscing elit. Curabitur<br> tellus augue.</p>
+            <a href="#" class="read-more">READ MORE <span>&#xbb;</span></a>
+        </div>
+
+        <div class="works">
+            <img src="https://themewagon.github.io/Weldork/img/service-6.jpg" class="work-img" />
+            <h3>METAL WORKS</h3>
+            <p>Lorem ipsum dolor sit<br> amet, consectetur<br> adipiscing elit. Curabitur<br> tellus augue.</p>
+            <a href="#" class="read-more">READ MORE <span>&#xbb;</span></a>
+        </div>
+
+        <div class="works">
+            <img src="https://themewagon.github.io/Weldork/img/service-7.jpg" class="work-img" />
+            <h3>METAL WORKS</h3>
+            <p>Lorem ipsum dolor sit<br> amet, consectetur<br> adipiscing elit. Curabitur<br> tellus augue.</p>
+            <a href="#" class="read-more">READ MORE <span>&#xbb;</span></a>
+        </div>
+
+        <div class="works">
+            <img src="https://themewagon.github.io/Weldork/img/service-8.jpg" class="work-img" />
+            <h3>METAL WORKS</h3>
+            <p>Lorem ipsum dolor sit<br> amet, consectetur<br> adipiscing elit. Curabitur<br> tellus augue.</p>
+            <a href="#" class="read-more">READ MORE <span>&#xbb;</span></a>
+        </div>
+    </div>
+</div>
+<br><br><br><br><br>
+
+<!-- Appointment scetion -->
+<div class="main-appnt">
+    <div class="right-address">
+        <h3 style="padding-left:45px;font-weight:bold;">ONLINE APPOINTMENT</h3>
+        <div class="appnt-form">
+            <input type="text" placeholder="Your Name" required class="inputs">
+            <input type="email" placeholder="Your EMAIL" required class="inputs"><br>
+            <input type="tel" placeholder="Your Mobile" class="inputs">
+            <input list="services" id="service" name="service" placeholder="Choose A Service" required class="inputs">
+                <datalist id="services">
+                    <option value="Steel Welding">
+                    <option value="Pipe Welding">
+                    <option value="Metal Works">
+                    <option value="Custom Welding">
+                </datalist><br>
+            <textarea name="message" placeholder="Message" style="width:90%;margin-left:45px;padding:10px;padding-left:25px;border:none"></textarea>
+            <input type="submit" placeholder="SUBMIT NOW" style="width:90%;padding:15px;" class="submit-now">
+        </div>
+    </div>
+
+    <div class="left-address">
+        <h2>WE COMPLETE WELDING &<br> METAL PROJECTS IN TIME</h2><br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur tellus<br>
+           augue, iaculis id elit eget, ultrices pulvinar tortor.</p>
+        <br>
+        <div class="address">
+            <i class="fa-solid fa-location-dot"></i>
+            <pre>OFFICE ADDRESS
+123 Street, New York, USA</pre>
+            </pre>
+        </div>
+        <hr>
+        <div class="address">
+            <i class="fa-solid fa-clock" style="font-size:40px;"></i>
+            <pre>OFFICE TIME
+Mon-Sat 09am-5pm, Sun Closed</pre>
+            </pre>
+        </div>
+    </div>
+</div>
+
+<br><br><br>
 
 </body>
 </html>
