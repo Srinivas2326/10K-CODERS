@@ -72,14 +72,14 @@ body {
     font-weight: 600;
 }
 
-.img-container {
+/* .img-container {
     background-size: cover;
     background-position: center;
     height: 130vh;
     position: relative;
     color: white;
     animation: bgSlide 15s infinite;
-    /* animation-delay: 2s; */
+
 }
 
 @keyframes bgSlide {
@@ -139,4 +139,59 @@ body {
 
 .thumbnail:hover {
     transform: scale(1.1);
+} */
+
+#heroCarousel {
+  position: relative;
+}
+
+.carousel-overlay {
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+  pointer-events: none; /* so carousel controls still clickable */
+}
+
+.thumbnail-container {
+  pointer-events: auto; /* enable clicks */
+  width: 80px;
+}
+
+.thumbnail {
+  display: block;
+  width: 70px;
+  height: 70px;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.thumbnail:hover {
+  transform: scale(1.1);
+}
+
+.carousel-caption-custom {
+  pointer-events: auto;
+  max-width: 600px;
+  text-align: left;
+  color: white;
+}
+
+.carousel-caption-custom h1 {
+  font-weight: 900;
+  font-size: 5rem;
+  line-height: 1.1;
+}
+
+.btn-warning {
+  background-color: #d48f0e;
+  border: none;
+  font-weight: 600;
+}
+
+.btn-warning:hover {
+  background-color: #b37a0b;
+  color: white;
 }
