@@ -19,6 +19,9 @@
   gap: 20px;
   justify-items: center;
 }
+.text-muted{
+  text-align:start;
+}
 
 /* Wrapper to provide 3D perspective for flip effect */
 .img-wrapper {

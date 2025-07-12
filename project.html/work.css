@@ -1,44 +1,71 @@
 .work-main-container {
     width: 90%;
-    /* background-color: black; */
     height: 160vh;
     margin-left: 50px;
 }
+
 .work-main-container h2 {
-    color: black;
+    color: rgb(16, 14, 14);
     text-align: center;
     padding-top: 20px;
+    font-weight: bold;
+    font-size: 2rem;
 }
-.frst-row,.scnd-row {
+
+.frst-row,
+.scnd-row {
     display: flex;
     width: 100%;
     margin-left: 70px;
-    gap:20px;
-
+    gap: 20px;
 }
+
+.worker {
+    background-color: white;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+/* 👇 Hover image styling */
+.worker-img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 4px;
+}
+
+.worker:hover .worker-img {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: rgb(212,143,14);
+}
+
 .works {
-    /* background-color: hsl(37, 63%, 55%); */
     padding: 20px;
-    padding-top:12vw;
-    padding-left:60px;
+    padding-top: 12vw;
+    padding-left: 60px;
     height: 60vh;
     position: relative;
     width: 300px;
     color: black;
     font-family: sans-serif;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
-/* .works h3,p,a{
-    padding-top:80px;
-} */
+
+.works:hover {
+    background-color: rgb(225, 158, 34);
+    transition: ease-in;
+}
+
 .work-img {
     width: 16vw;
     height: auto;
     position: absolute;
     top: -50px;
     right: 0px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
+
 .read-more {
     display: inline-block;
     margin-top: 20px;
@@ -49,9 +76,11 @@
     font-weight: bold;
     transition: 0.3s;
 }
+
 .read-more span {
     margin-left: 5px;
 }
+
 .read-more:hover {
     background-color: black;
     color: white;

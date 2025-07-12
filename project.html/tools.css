@@ -12,7 +12,7 @@
 .tool-img>i{
     font-size: 40px;
     color: white;
-    background-color: rgb(212, 143, 14);
+    background-color: rgb(186, 135, 40);
     padding:20px;
 }
 .tools-content{
@@ -37,6 +37,9 @@
     color: grey;
     font-size: 16px;
 }
+/* .tools-content span{
+    margin-left:60px;
+} */
 .tool-img{
     position:absolute;
     left:0;

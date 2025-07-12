@@ -34,7 +34,7 @@
 .icon-container {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 30px;
     margin-top: 10px;
 }
 
@@ -48,6 +48,7 @@
     color: #555;
     font-style: italic;
     font-size:larger;
+    text-align:start;
 }
 
 .newsletter-right {
@@ -60,4 +61,12 @@ form input{
 }
 input{
     border:none;
+}
+.news-submit{
+    background-color: rgb(212,143,14);
+    color:white;
+}
+.news-submit:hover{
+    background-color: rgb(219, 176, 95);
+    color:black;
 }
