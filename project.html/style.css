@@ -63,7 +63,8 @@ body {
     text-decoration: none;
     font-weight: 600;
 }
-.btn{
+
+.btn {
     background-color: rgb(212, 143, 14);
     color: white;
     padding: 10px 20px;
@@ -72,128 +73,78 @@ body {
     font-weight: 600;
 }
 
-/* .img-container {
-    background-size: cover;
-    background-position: center;
-    height: 130vh;
+#heroCarousel {
     position: relative;
-    color: white;
-    animation: bgSlide 15s infinite;
-
 }
 
-@keyframes bgSlide {
-    0% {
-        background-image: url("https://themewagon.github.io/Weldork/img/carousel-1.jpg");
-    }
-    33% {
-        background-image: url("https://themewagon.github.io/Weldork/img/carousel-2.jpg");
-    }
-    66% {
-        background-image: url("https://themewagon.github.io/Weldork/img/carousel-3.jpg");
-    }
-    100% {
-        background-image: url("https://themewagon.github.io/Weldork/img/carousel-1.jpg");
-    }
+.carousel-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    pointer-events: none;
 }
 
-.best {
-    font-size: 120px;
-    padding-left: 140px;
-    padding-top: 280px;
+/* Dark overlay added here */
+.dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust darkness */
     z-index: 1;
-    position: relative;
-}
-
-.explore {
-    background-color: rgb(212, 143, 14);
-    color: white;
-    height: 50px;
-    width: 200px;
-    font-size: 20px;
-    margin-left: 220px;
-    margin-top: 20px;
-    cursor: pointer;
 }
 
 .thumbnail-container {
-    position: absolute;
-    top: 50%;
-    left: 30px;
-    transform: translateY(-50%);
+    pointer-events: auto;
+    width: 80px;
+    margin-left: 200px;
+    z-index: 2;
     display: flex;
     flex-direction: column;
     gap: 15px;
-    z-index: 2;
-    padding-left: 10px;
 }
 
 .thumbnail {
+    display: block;
     width: 70px;
     height: 70px;
-    object-fit: cover;
     border: 2px solid white;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
     cursor: pointer;
     transition: transform 0.3s ease;
 }
 
 .thumbnail:hover {
     transform: scale(1.1);
-} */
-
-#heroCarousel {
-  position: relative;
-}
-
-.carousel-overlay {
-  position: absolute;
-  top: 0; bottom: 0; left: 0; right: 0;
-  pointer-events: none; /* so carousel controls still clickable */
-}
-
-.thumbnail-container {
-  pointer-events: auto; /* enable clicks */
-  width: 80px;
-}
-
-.thumbnail {
-  display: block;
-  width: 70px;
-  height: 70px;
-  border: 2px solid white;
-  border-radius: 5px;
-  background-size: cover;
-  background-position: center;
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-
-.thumbnail:hover {
-  transform: scale(1.1);
 }
 
 .carousel-caption-custom {
-  pointer-events: auto;
-  max-width: 600px;
-  text-align: left;
-  color: white;
-  margin-left:30px;
+    pointer-events: auto;
+    max-width: 600px;
+    text-align: left;
+    color: white;
+    margin-left: 40px;
+    z-index: 2;
 }
 
-
 .carousel-caption-custom h1 {
-  font-weight: 900;
-  font-size: 5rem;
-  line-height: 1.1;
+    font-weight: 900;
+    font-size: 6rem;
+    line-height: 1.1;
 }
 
 .btn-warning {
-  background-color: #d48f0e;
-  border: none;
-  font-weight: 600;
+    background-color: #d48f0e;
+    border: none;
+    font-weight: 600;
 }
 
 .btn-warning:hover {
-  background-color: #b37a0b;
-  color: white;
+    background-color: #b37a0b;
+    color: white;
 }
