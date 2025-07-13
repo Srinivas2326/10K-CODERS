@@ -143,6 +143,9 @@
     overflow: hidden;
     z-index: 1;
 }
+.works p{
+    text-align:start;
+}
 
 .works::before {
     content: "";
