@@ -37,13 +37,12 @@
     display: block;
 }
 
-/* Initial state: hidden and off-screen to the left */
 .background-color-container {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 55vh;
+    height: 52vh;
     background-color: rgb(212, 143, 14);
     transform: translateX(-100%);
     opacity: 0;
@@ -109,4 +108,28 @@
     background-color: #fff;
     position: relative;
     z-index: 2;
+}
+
+
+@media (max-width:1024px){
+    .worker{
+        width:30vw;
+    }
+    .background-color-container{
+        height:43vh;
+    }
+}
+
+
+@media (max-width:768px){
+    .workers-container{
+        height:120vh;
+    }
+    .worker{
+        width:40vw;
+    }
+    .background-color-container{
+        height:59vh;
+    }
+
 }

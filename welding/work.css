@@ -197,3 +197,32 @@
     background-color: black;
     color: white;
 }
+
+
+@media (max-width:1024px){
+    .work-main-container h2{
+        font-size: 2.5rem;
+    }
+    .works{
+        width:40vw;
+        height:45vh;
+        font-family: sans-serif;
+    }
+    .work-img{
+        width: 15vw;
+        height:20vh;
+    }
+    .works>h5{
+        padding-top:15px;
+    }  
+}
+
+
+@media (max-width:768px){
+    .frst-row,.scnd-row{
+        margin-left:0;
+    }
+    .works{
+        height:50vh;
+    }
+}
